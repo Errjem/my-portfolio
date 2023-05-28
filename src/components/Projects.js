@@ -28,9 +28,9 @@ function Projects() {
             title: 'My Portfolio',
             description: "Discover the power of the MERN stack through my ReactJS-powered portfolio, where I showcase my expertise in building dynamic and robust web applications with MongoDB, Express, React, and Node.js.",
             image: [project2Image1, project2Image2, project2Image3, project2Image4],
-            web: 'https://story-corner.netlify.app/',
+            web: 'https://houssame-errjem.netlify.app/',
             technologies: 'HTML5 - CSS3 - JavaScript - React.js - Bootstrap',
-            repository: 'https://github.com/example/project2',
+            repository: 'https://github.com/Errjem/my-portfolio',
         },
     ];
 
