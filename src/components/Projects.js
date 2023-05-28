@@ -22,7 +22,7 @@ function Projects() {
             image: [project1Image1, project1Image2, project1Image3],
             web: 'https://story-corner.netlify.app/',
             technologies: 'HTML5 - CSS3 - JavaScript - MongoDB - Express.js - React.js - Redux - Node.js - Ant Design',
-            githubRepoLink: 'https://github.com/Errjem/Story-Corner',
+            repository: 'https://github.com/Errjem/Story-Corner',
         },
         {
             title: 'My Portfolio',
