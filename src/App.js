@@ -6,16 +6,22 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Houssame Errjem'
+  });
+  
   return (
     <div className="App">
-        <TopPage />
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+      <TopPage />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }
