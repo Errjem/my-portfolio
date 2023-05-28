@@ -1,0 +1,77 @@
+/* Projects.css */
+.projects {
+    background-color: wheat;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* Add space between the projects */
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+/* Set a max height for project card images */
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Style the project card title */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red;
+    text-shadow: 0 0 7px white, 0 0 5px black;
+}
+
+#Technologies {
+    font-weight: bold;
+    color: red;
+    text-shadow: 0 0 7px white, 0 0 5px black;
+}
+
+/* Style the project card description */
+.card-text {
+    margin-bottom: 1rem;
+    color: red;
+    text-shadow: 0 0 7px white, 0 0 5px white;
+}
+
+/* Style the GitHub repo button */
+#btn-projects {
+    background-color: darkred;
+    border-color: white;
+}
+
+#btn-projects:hover {
+    background-color: red;
+    border-color: white;
+}
+
+#project-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: wheat;
+    max-width: 200px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: box-shadow 0.3s ease;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #e74c3c, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #e74c3c, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.project-title2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    text-shadow: 0 0 7px white, 0 0 5px black;
+}
