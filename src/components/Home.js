@@ -26,7 +26,7 @@ function Home() {
           <Col md={6} className="text-center" id='col-1'>
             <h3 data-aos="fade-right">Hello, my name is </h3>
             <h1 data-aos="fade-right">🅷🅾🆄🆂🆂🅰🅼🅴 🅴🆁🆁🅹🅴🅼</h1>
-            <h4 data-aos="fade-right">I'm a full stack developer</h4>
+            <h4 data-aos="fade-right">I'm a front-end developer</h4>
             <Button data-aos="fade-right" size="lg" className="mt-3" id='btn-home' href={DownloadCv} download>
               <Icon.Download size={25} /> Download CV
             </Button>
