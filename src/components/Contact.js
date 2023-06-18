@@ -132,7 +132,7 @@ function Contact() {
                         </Col>
                     </Row>
                     <div data-aos="fade-up-right" className="copyright">
-                        <p> <FaLaptopCode /> Full Stack Developer</p>
+                        <p> <FaLaptopCode /> Front-End Developer</p>
                         <p> Created by <FaReact /> React.js </p>
                         <p> <FaRegCopyright /> 2023 HOUSSAME ERRJEM , All rights reserved .</p>
                     </div>
