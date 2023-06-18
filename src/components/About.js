@@ -29,13 +29,10 @@ function About() {
                             <Card.Body>
                                 <Card.Title data-aos="fade-down-left" className="about-me-card-title">I'm Houssame, 25 years old !</Card.Title>
                                 <Card.Text data-aos="fade-up-left" className="about-me-card-text">
-                                    A passionate and dedicated full stack developer specializing in MERN stack
-                                    With a strong foundation
-                                    in both front-end and back-end development, I bring a holistic approach
-                                    to creating dynamic and efficient web applications. <br />
-                                    Throughout my career, I have gained valuable experience in developing
-                                    scalable and responsive web solutions that deliver exceptional user
-                                    experiences.  <br />
+                                    Passionate front-end developer specializing in React.js, with a keen eye for
+                                    creating intuitive and visually appealing user interfaces. With a strong
+                                    foundation in web development, I bring creativity and problem-solving skills to every
+                                    project. Committed to delivering high-quality code and collaborating with teams to bring ideas to life.  <br />
                                     I am open to job opportunities and would love to be part of your team.  <br />
                                     Feel free to browse through my portfolio to explore my previous projects
                                     and get a glimpse of my coding skills. <br />
