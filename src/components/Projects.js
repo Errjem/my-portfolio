@@ -7,6 +7,8 @@ import project2Image1 from '../components/images/portfolio1.jpg'
 import project2Image2 from '../components/images/portfolio2.jpg'
 import project2Image3 from '../components/images/portfolio3.jpg'
 import project2Image4 from '../components/images/portfolio4.jpg'
+import project2Image5 from '../components/images/portfolio5.jpg'
+import project2Image6 from '../components/images/portfolio6.jpg'
 import './Projects.css';
 import { FaGithub } from 'react-icons/fa';
 import './Skills.css';
@@ -27,7 +29,7 @@ function Projects() {
         {
             title: 'My Portfolio',
             description: "Discover the power of the Front-End through my ReactJS-powered portfolio, where I showcase my expertise in building dynamic and robust web applications with React.js.",
-            image: [project2Image1, project2Image2, project2Image3, project2Image4],
+            image: [project2Image1, project2Image2, project2Image3, project2Image4, project2Image5, project2Image6],
             web: 'https://houssame-errjem.netlify.app/',
             technologies: 'HTML5 - CSS3 - JavaScript - React.js - Bootstrap',
             repository: 'https://github.com/Errjem/my-portfolio',
