@@ -56,10 +56,11 @@
 }
 
 .skills-card-title {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bolder;
-  margin-bottom: 10px;
-  color: orange;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
   text-shadow: 0 0 7px black, 0 0 5px black;
   text-align: center;
 }
@@ -78,4 +79,13 @@
 
 .skills-icons:hover {
   color: #e5e5e5;
+}
+
+@media (max-width: 768px){
+  #skills-card{
+    margin-inline: 20px;
+  }
+  .skills-icons{
+    font-size: 70px;
+  }
 }

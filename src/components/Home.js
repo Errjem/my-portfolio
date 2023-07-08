@@ -41,7 +41,7 @@ function Home() {
               size="lg"
               className="mt-3"
               id="btn-home2"
-              href="#contact"
+              href="tel:+212623659049"
             >
               <Icon.Whatsapp size={25} /> Contact Me
             </Button>

@@ -50,12 +50,11 @@ function Skills() {
       </h2>
       <Row className="skills-row">
         <Col md={4} className="skills-column">
-          <Card
-            data-aos="fade-right"
-            id="skills-card"
-          >
+          <Card data-aos="fade-right" id="skills-card">
             <Card.Body>
-              <Card.Title className="skills-card-title">Front-end</Card.Title>
+              <Card.Title>
+                <h1 className="skills-card-title">Front-end</h1>{" "}
+              </Card.Title>
               <Card.Text className="skills-card-text">
                 <FaHtml5 className="skills-icons" />
                 <FaCss3Alt className="skills-icons" />
@@ -72,12 +71,11 @@ function Skills() {
           </Card>
         </Col>
         <Col md={4} className="skills-column">
-          <Card
-            data-aos="fade-up"
-            id="skills-card"
-          >
+          <Card data-aos="fade-up" id="skills-card">
             <Card.Body>
-              <Card.Title className="skills-card-title">Back-end</Card.Title>
+              <Card.Title>
+                <h1 className="skills-card-title">Back-end</h1>{" "}
+              </Card.Title>
               <Card.Text className="skills-card-text">
                 <FaNodeJs className="skills-icons" />
                 <SiMongodb className="skills-icons" />
@@ -91,12 +89,11 @@ function Skills() {
           </Card>
         </Col>
         <Col md={4} className="skills-column">
-          <Card
-            data-aos="fade-left"
-            id="skills-card"
-          >
+          <Card data-aos="fade-left" id="skills-card">
             <Card.Body>
-              <Card.Title className="skills-card-title">Others</Card.Title>
+              <Card.Title>
+                <h1 className="skills-card-title">Others</h1>{" "}
+              </Card.Title>
               <Card.Text className="skills-card-text">
                 <FaGitAlt className="skills-icons" />
                 <SiGithub className="skills-icons" />
