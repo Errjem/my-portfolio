@@ -1,48 +1,59 @@
 .Navbar {
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    background: #000000;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #e74c3c, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #e74c3c, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: #e5e5e5;
 }
 
 .Navbar .Container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #brand-img {
-    max-width: 50px;
-    height: auto;
-    border-radius: 50%;
-    background-color: wheat;
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+  background-color: black;
 }
-
+#brand-img:hover {
+  background-color: orange;
+}
 #top-page-name {
-    color: wheat;
-    font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bolder;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #top-page-name:hover {
-    border-bottom: 2px solid wheat;
+  color: orange;
 }
 
 #Navbar-Toggle {
-    background-color: wheat;
+  background-color: transparent;
 }
 
-.ms-auto .TopPage-items {
-    color: wheat;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    font-family: 'Gloria Hallelujah', cursive;
+.ms-auto .TopPage-items:link,
+.ms-auto .TopPage-items:visited {
+   font-weight: bolder;
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.ms-auto .TopPage-items:hover {
-    color: wheat;
-    border-bottom-color: wheat;
+.ms-auto .TopPage-items:hover,
+.ms-auto .TopPage-items::after {
+  color: orange;
+}
+
+@media (max-width: 992px) {
+  #top-page-name {
+    display: none;
+  }
+  .ms-auto .TopPage-items {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
 }
