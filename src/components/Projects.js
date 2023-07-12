@@ -52,13 +52,7 @@ function Projects() {
   ];
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 480px)");
-
-    if (mediaQuery.matches) {
-      AOS.init({ disable: "mobile" });
-    } else {
-      AOS.init({ duration: 1500 });
-    }
+    AOS.init({ duration: 3000 });
   }, []);
 
   return (
@@ -73,12 +67,7 @@ function Projects() {
         <Row className="justify-content-center">
           {projects.map((project, index) => (
             <Col key={index} md={6} className="mb-4">
-              <Card
-                data-aos="zoom-in-up"
-                className="h-100"
-                id="project-card"
-        
-              >
+              <Card data-aos="zoom-in-up" className="h-100" id="project-card">
                 <Carousel>
                   {project.image.map((image, imageIndex) => (
                     <Carousel.Item key={imageIndex}>

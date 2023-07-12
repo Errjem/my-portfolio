@@ -26,20 +26,13 @@ import {
   SiVuedotjs,
   SiAngular,
 } from "react-icons/si";
-import { TbApi } from "react-icons/tb";
 import "./Skills.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Skills() {
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 480px)");
-
-    if (mediaQuery.matches) {
-      AOS.init({ disable: "mobile" });
-    } else {
-      AOS.init({ duration: 1500 });
-    }
+    AOS.init({ duration: 3000 });
   }, []);
 
   return (

@@ -23,13 +23,7 @@ function TopPage() {
   };
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 480px)");
-
-    if (mediaQuery.matches) {
-      AOS.init({ disable: "mobile" });
-    } else {
-      AOS.init({ duration: 1500 });
-    }
+    AOS.init({ duration: 3000 });
   }, []);
 
   return (
@@ -53,58 +47,38 @@ function TopPage() {
           <Nav data-aos="fade-left" className="ms-auto">
             <Nav.Link
               href="#home"
-              className="TopPage-items"            
+              className="TopPage-items"
               onClick={handleToggle}
             >
-              <FontAwesomeIcon
-                icon={faHouse}
-                size="lg"
-              />{" "}
-              Home
+              <FontAwesomeIcon icon={faHouse} size="lg" /> Home
             </Nav.Link>
             <Nav.Link
               href="#about"
               className="TopPage-items"
               onClick={handleToggle}
             >
-              <FontAwesomeIcon
-                icon={faUser}
-                size="lg"
-              />{" "}
-              About
+              <FontAwesomeIcon icon={faUser} size="lg" /> About
             </Nav.Link>
             <Nav.Link
               href="#skills"
               className="TopPage-items"
               onClick={handleToggle}
             >
-              <FontAwesomeIcon
-                icon={faGear}
-                size="lg"
-              />{" "}
-              Skills
+              <FontAwesomeIcon icon={faGear} size="lg" /> Skills
             </Nav.Link>
             <Nav.Link
               href="#projects"
               className="TopPage-items"
               onClick={handleToggle}
             >
-              <FontAwesomeIcon
-                icon={faFolderOpen}
-                size="lg"
-              />{" "}
-              Projects
+              <FontAwesomeIcon icon={faFolderOpen} size="lg" /> Projects
             </Nav.Link>
             <Nav.Link
               href="#contact"
               className="TopPage-items"
               onClick={handleToggle}
             >
-              <FontAwesomeIcon
-                icon={faPhone}
-                size="lg"
-              />{" "}
-              Contact
+              <FontAwesomeIcon icon={faPhone} size="lg" /> Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

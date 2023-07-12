@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 function About() {
   useEffect(() => {
-    AOS.init({ duration: 1500, disable: "phone" });
+    AOS.init({ duration: 3000 });
   }, []);
 
   return (
@@ -42,7 +42,7 @@ function About() {
                   data-aos="fade-down-left"
                   className="about-me-card-title"
                 >
-                  I'm Houssame, 25 years old ! 
+                  I'm Houssame, 25 years old !
                 </Card.Title>
                 <Card.Text
                   data-aos="fade-up-left"
@@ -55,7 +55,7 @@ function About() {
                   Committed to delivering high-quality code and collaborating
                   with teams to bring ideas to life. <br />
                   I am open to job opportunities and would love to be part of
-                  your team. <br /> 
+                  your team. <br />
                   Feel free to browse through my portfolio to explore my
                   previous projects and get a glimpse of my coding skills.{" "}
                   <br />

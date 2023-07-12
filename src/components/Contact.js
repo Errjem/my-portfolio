@@ -64,13 +64,7 @@ function Contact() {
   };
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 480px)");
-
-    if (mediaQuery.matches) {
-      AOS.init({ disable: "mobile" });
-    } else {
-      AOS.init({ duration: 1500 });
-    }
+    AOS.init({ duration: 3000 });
   }, []);
 
   return (
